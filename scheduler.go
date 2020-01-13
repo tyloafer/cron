@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	CronRPCClient "tyloafer/cron/cron/service/client"
-	CronRPCServer "tyloafer/cron/cron/service/server"
+	CronRPCClient "github.com/tyloafer/cron/service/client"
+	CronRPCServer "github.com/tyloafer/cron/service/server"
 )
 
 const MaxRetry int = 3

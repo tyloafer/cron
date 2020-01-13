@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	CronService "tyloafer/cron/cron/service/cron"
+	CronService "github.com/tyloafer/cron/service/cron"
 )
 
 // schedule job for name to host to run
