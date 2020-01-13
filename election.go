@@ -10,8 +10,6 @@ import (
 )
 
 var (
-	defaultNamespace     = "default"
-	defaultLockName      = "election-lock-default"
 	defaultLeaseDuration = 15 * time.Second
 	defaultRenewDeadline = 10 * time.Second
 	defaultRetryPeriod   = 2 * time.Second
