@@ -1,7 +1,9 @@
 # cron
 ## 简介
 基于Kubernetes实现的分布式定时任务调度器
+
 cron首先会基于k8s的leader election选举出一个leader
+
 然后leader将解析cron表达式，然后依次调度到pod上执行
 
 ## 下载
