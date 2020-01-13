@@ -1,4 +1,4 @@
-module tyloafer/cron/cron
+module github.com/tyloafer/cron
 
 go 1.13
 
